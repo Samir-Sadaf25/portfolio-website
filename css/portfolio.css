@@ -143,9 +143,6 @@ main section{
 }
 
 /* styles skill section */
-.skill-section{
-      
-}
 .skill-description{
     text-align: center;
 }
@@ -182,4 +179,45 @@ main section{
 .skill-exp{
     padding: 0px 33px 30px 33px;
     text-align: justify;
+}
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575
+    /* margin-top: 20px; */
+}
+.resume-column{
+    justify-content: space-between;
+}
+.resume-download{
+    margin-left: 470px;
+    margin-right: 423px;
+    text-align: center;
+    margin-top: 50px;
 }
