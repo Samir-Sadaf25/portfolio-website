@@ -221,3 +221,54 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer section */
+.footer-heading{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+}
+.footer-column{
+    /* display: flex; */
+    width: 50%;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"]{
+    height: 64px;
+    width: 461px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+    border-style: none;
+}
+footer input[type="email"]{
+    height: 64px;
+    width: 461px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 24px;
+}
+.Message-box{
+    border-radius: 5px;
+    border-style: none;
+}
+form ::placeholder,textarea{
+   padding-left: 24px;
+   padding-top: 18px;
+   color: #757575;
+   font-size: 16px;
+}
+.form-submit-box{
+    margin-top: 24px;
+    margin-bottom: 130px;
+}
